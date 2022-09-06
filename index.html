@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda App</title>
+    <link rel="icon" type="image/png" href="./assets/rocket.svg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&family=Open+Sans&family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="cuerpo">
+    <div class="main__titulo">
+      <header class="titulo">
+        <h1 class="titulo__name">Agenda App</h1>
+      </header>
+    </div>
+    <main>
+      <div class="mainCard">
+        <div class="title"><img src="./assets/rocket.svg" /></div>
+        <div>
+          <form class="formulario" action="">
+            <input
+              type="text"
+              name="task"
+              placeholder="Nombre de la tarea"
+              class="inputForm"
+              autocomplete="off"
+              data-form-input
+            />
+            <input class="input__date" type="datetime-local" data-form-date placeholder="DD/MM/YYYY"/>
+            <button type="submit" class="btnCreate" data-form-btn>
+              Agregar <i class="fas fa-plus-circle"></i>
+            </button>
+          </form>
+        </div>
+        <ul class="cardsList" data-list>
+        </ul>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script type="module" src="script.js"></script>
+
+    <footer class="pie__pagina">
+      
+      <p class="footer__autor">&copy Desarrollado por Brian Gómez - 2022</p>
+      <div class="footer__redes">
+        <a href="https://github.com/Bagse" target="_blank">
+          <img class="footer__imagen" src="assets/redes/github_icon.svg" alt="logo github">
+        </a>
+        <a href="https://www.linkedin.com/in/brian-ar%C3%B3n-g%C3%B3mez-sequeiros/" target="_blank">
+          <img class="footer__imagen" src="assets/redes/linkedin_icon.svg" alt="logo linkedin">
+        </a>
+        <a href="https://www.instagram.com/aron.gomez7/" target="_blank">
+          <img class="footer__imagen" src="assets/redes/instagram_icon.svg" alt="logo instagram">
+        </a>
+      </div>    
+    </footer>
+  </body>
+</html>
