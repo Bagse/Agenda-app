@@ -238,6 +238,7 @@ main {
 @media screen and (min-width: 0) and (max-width: 480px) {
   .titulo{
     padding-top: .8rem;
+    padding-bottom: .8rem;
     width: 100%;
   }
   .titulo__name{
