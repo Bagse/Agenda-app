@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/102260190/188701162-b4123918-9b20-4f6a-abb8-7d4fa8125352.png)
 
-link: https://bagse.github.io/1821-manipulando-dom-con-js-proyecto_agenda.github.io/ 
+link: https://bagse.github.io/Agenda-app/
 
 # 1821-manipulando-dom-con-js-proyecto_agenda.github.io
 
