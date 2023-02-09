@@ -2,7 +2,7 @@
 
 link: https://bagse.github.io/Agenda-app/
 
-# 1821-manipulando-dom-con-js-proyecto_agenda.github.io
+# Manipulando DOM con JS - Agenda
 
 Agenda (HTML, CSS, JavaScript, CRUD)
 
